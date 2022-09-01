@@ -1,0 +1,13 @@
+Uuid: 657539deacea4d15abd6cecd9c5721c6
+ExtensionType: 2
+Name: OAuth2 Token Grabber
+RepoName: oauth2-token-grabber
+ScreenVersion: 1.0
+SerialVersion: 1
+MinPlatformVersion: 0
+ProOnly: False
+Author: 0kman
+ShortDescription: Grab OAuth2 access tokens and add them to requests as a custom header.
+EntryPoint: OAuth2TokenGrabber.py
+BuildCommand: 
+SupportedProducts: Pro, Community

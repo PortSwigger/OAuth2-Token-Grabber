@@ -1,0 +1,19 @@
+<p>Burp Suite extension to grab OAuth2 access tokens and add them to requests as a custom header.</p>
+<p>Currently supported auth flows:</p>
+<ul>
+	<li>Client Credentials</li>
+	<li>Password Credentials</li>
+	<li>Resource Owner Password Credentials (ROPC)</li>
+</ul>
+
+<p>Usage</p>
+<ul>
+	<li>Select desired grant type &amp; client authentication method</li>
+	<li>(Optional) Set a custom header for access tokens to be added to</li>
+	<li>Input token URL</li>
+	<li>Input relevant credentials and scope</li>
+	<li>Hit 'Test'. You should receive an access token (Otherwise, try debug mode)</li>
+	<li>Select desired tool scope</li>
+	<li>Hit 'Activate'. The access token will then be added to all in scope traffic</li>
+	<li>When the access token expires, a new one will be requested automatically</li>
+</ul>
